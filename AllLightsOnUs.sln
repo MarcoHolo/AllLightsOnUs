@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceRemoteApp", "VoiceRemoteApp\VoiceRemoteApp.csproj", "{1C2FDEDF-3AF0-48D7-8A2B-7424F3F40CC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightControllerOnPI2", "LightControllerOnPI2\LightControllerOnPI2.csproj", "{F2E422AC-46FF-42A6-9A91-AA04BB20239B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C2FDEDF-3AF0-48D7-8A2B-7424F3F40CC4}.Debug|ARM.ActiveCfg = Debug|ARM
+		{1C2FDEDF-3AF0-48D7-8A2B-7424F3F40CC4}.Debug|ARM.Build.0 = Debug|ARM
+		{1C2FDEDF-3AF0-48D7-8A2B-7424F3F40CC4}.Debug|ARM.Deploy.0 = Debug|ARM
+		{1C2FDEDF-3AF0-48D7-8A2B-7424F3F40CC4}.Debug|x64.ActiveCfg = Debug|x64
+		{1C2FDEDF-3AF0-48D7-8A2B-7424F3F40CC4}.Debug|x64.Build.0 = Debug|x64
+		{1C2FDEDF-3AF0-48D7-8A2B-7424F3F40CC4}.Debug|x64.Deploy.0 = Debug|x64
+		{1C2FDEDF-3AF0-48D7-8A2B-7424F3F40CC4}.Debug|x86.ActiveCfg = Debug|x86
+		{1C2FDEDF-3AF0-48D7-8A2B-7424F3F40CC4}.Debug|x86.Build.0 = Debug|x86
+		{1C2FDEDF-3AF0-48D7-8A2B-7424F3F40CC4}.Debug|x86.Deploy.0 = Debug|x86
+		{1C2FDEDF-3AF0-48D7-8A2B-7424F3F40CC4}.Release|ARM.ActiveCfg = Release|ARM
+		{1C2FDEDF-3AF0-48D7-8A2B-7424F3F40CC4}.Release|ARM.Build.0 = Release|ARM
+		{1C2FDEDF-3AF0-48D7-8A2B-7424F3F40CC4}.Release|ARM.Deploy.0 = Release|ARM
+		{1C2FDEDF-3AF0-48D7-8A2B-7424F3F40CC4}.Release|x64.ActiveCfg = Release|x64
+		{1C2FDEDF-3AF0-48D7-8A2B-7424F3F40CC4}.Release|x64.Build.0 = Release|x64
+		{1C2FDEDF-3AF0-48D7-8A2B-7424F3F40CC4}.Release|x64.Deploy.0 = Release|x64
+		{1C2FDEDF-3AF0-48D7-8A2B-7424F3F40CC4}.Release|x86.ActiveCfg = Release|x86
+		{1C2FDEDF-3AF0-48D7-8A2B-7424F3F40CC4}.Release|x86.Build.0 = Release|x86
+		{1C2FDEDF-3AF0-48D7-8A2B-7424F3F40CC4}.Release|x86.Deploy.0 = Release|x86
+		{F2E422AC-46FF-42A6-9A91-AA04BB20239B}.Debug|ARM.ActiveCfg = Debug|ARM
+		{F2E422AC-46FF-42A6-9A91-AA04BB20239B}.Debug|ARM.Build.0 = Debug|ARM
+		{F2E422AC-46FF-42A6-9A91-AA04BB20239B}.Debug|ARM.Deploy.0 = Debug|ARM
+		{F2E422AC-46FF-42A6-9A91-AA04BB20239B}.Debug|x64.ActiveCfg = Debug|x64
+		{F2E422AC-46FF-42A6-9A91-AA04BB20239B}.Debug|x64.Build.0 = Debug|x64
+		{F2E422AC-46FF-42A6-9A91-AA04BB20239B}.Debug|x64.Deploy.0 = Debug|x64
+		{F2E422AC-46FF-42A6-9A91-AA04BB20239B}.Debug|x86.ActiveCfg = Debug|x86
+		{F2E422AC-46FF-42A6-9A91-AA04BB20239B}.Debug|x86.Build.0 = Debug|x86
+		{F2E422AC-46FF-42A6-9A91-AA04BB20239B}.Debug|x86.Deploy.0 = Debug|x86
+		{F2E422AC-46FF-42A6-9A91-AA04BB20239B}.Release|ARM.ActiveCfg = Release|ARM
+		{F2E422AC-46FF-42A6-9A91-AA04BB20239B}.Release|ARM.Build.0 = Release|ARM
+		{F2E422AC-46FF-42A6-9A91-AA04BB20239B}.Release|ARM.Deploy.0 = Release|ARM
+		{F2E422AC-46FF-42A6-9A91-AA04BB20239B}.Release|x64.ActiveCfg = Release|x64
+		{F2E422AC-46FF-42A6-9A91-AA04BB20239B}.Release|x64.Build.0 = Release|x64
+		{F2E422AC-46FF-42A6-9A91-AA04BB20239B}.Release|x64.Deploy.0 = Release|x64
+		{F2E422AC-46FF-42A6-9A91-AA04BB20239B}.Release|x86.ActiveCfg = Release|x86
+		{F2E422AC-46FF-42A6-9A91-AA04BB20239B}.Release|x86.Build.0 = Release|x86
+		{F2E422AC-46FF-42A6-9A91-AA04BB20239B}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
