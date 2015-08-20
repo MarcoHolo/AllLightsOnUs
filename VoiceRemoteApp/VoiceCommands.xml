@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.1">
+  <CommandSet xml:lang="en-US" Name="commandSet_en-US">
+    <CommandPrefix> hey bat cave </CommandPrefix>
+    <Example>Hey bat cave </Example>
+
+    <Command Name="CallToAction">
+      <Example> bat cave, Lamp on </Example>
+      <ListenFor> {light} [on] </ListenFor>
+      <Feedback> Your mercy is great </Feedback>
+      <Navigate Target="MainPage.xaml"/>
+    </Command>
+
+    <PhraseList Label="light">
+      <Item> light </Item>
+      <Item> lamp </Item>
+      <Item> party </Item>
+    </PhraseList>
+
+  </CommandSet>
+
+  <!-- Other CommandSets for other languages -->
+    <CommandSet xml:lang="de-DE" Name="commandSet_de-DE">
+    <CommandPrefix> Es werde </CommandPrefix>
+    <Example>Es werde Licht </Example>
+
+    <Command Name="CallToAction">
+      <Example> Es werde Licht </Example>
+      <ListenFor> {licht} </ListenFor>
+      <Feedback> Deine Gnade ist groß </Feedback>
+      <Navigate Target="MainPage.xaml"/>
+    </Command>
+
+    <PhraseList Label="licht">
+      <Item> Licht </Item>
+      <Item> hell </Item>
+      <Item> spaßig </Item>
+    </PhraseList>
+
+  </CommandSet>
+
+</VoiceCommands>
